@@ -11,6 +11,7 @@ function addElementToBeginningOfArray(array,element) {
 function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element)
   return array // this code must be on separate line from above, cant have "return array.unshift(element)", code won't pass test
+               // this applies to all below that are coded like this, separate lines or code won't pass
 }
 
 
